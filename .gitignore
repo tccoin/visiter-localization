@@ -1,0 +1,9 @@
+data/
+agcnn/
+pymynt/
+haarcascade/
+.vscode/
+*.pyc
+yolo
+yolo-cpu
+yolo-gpu
