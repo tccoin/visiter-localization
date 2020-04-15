@@ -15,7 +15,7 @@ def load(img):
 
 def crop(img, box):
     (x, y, w, h) = box
-    (x1, y1, x2, y2) = (max(0,x),max(0,y),min(x+w,img.shape[0]),min(y+h,img.shape[1]))
+    (x1, y1, x2, y2) = (max(0,x),max(0,y),min(x+w,img.shape[1]),min(y+h,img.shape[0]))
     return img[y1:y2,x1:x2]
 
 def peek(img, timeout=0, update=False):
