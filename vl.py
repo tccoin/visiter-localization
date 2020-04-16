@@ -3,11 +3,8 @@ import numpy as np
 import darknet
 import time
 import helper
-import caffe
 import pymynt
 
-caffe.set_mode_gpu()
-caffe.set_device(0)
 darknet.set_gpu(0)
 
 MODEL_MEAN_VALUES= (78.4263377603, 87.7689143744, 114.895847746)
